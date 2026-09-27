@@ -8,11 +8,11 @@ let thumb = document.querySelector(".container .thumb");
 btnNext.onclick = () => moveItemsOnClick("next");
 btnBack.onclick = () => moveItemsOnClick("back");
 
-function moveItemsOnClick(type){
+function moveItemsOnClick(type) {
     let listItems = document.querySelectorAll(".list .list-item");
     let thumbItems = document.querySelectorAll(".thumb .thumb-item");
-    
-    if(type === "next"){
+
+    if (type === "next") {
         list.appendChild(listItems[0]);
         thumb.appendChild(thumbItems[0]);
     } else {

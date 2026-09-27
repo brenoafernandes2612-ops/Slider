@@ -22,7 +22,7 @@ header {
     margin: auto;
 }
 
-header a{
+header a {
     color: #eee;
     margin-right: 40px;
 }
@@ -47,7 +47,7 @@ header a{
     filter: brightness(50%);
 }
 
-.container .list .list-item .content { 
+.container .list .list-item .content {
     position: absolute;
     top: 20%;
     right: 10%;
