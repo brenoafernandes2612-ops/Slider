@@ -19,4 +19,8 @@ function moveItemsOnClick(type) {
         list.prepend(listItems[3]);
         thumb.prepend(thumbItems[3]);
     }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 33eff9ffa3bca63f5d4506d82dc772cf5901fc10
